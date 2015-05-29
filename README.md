@@ -5,5 +5,9 @@ You can download it here: https://chrome.google.com/webstore/detail/name-swamp/m
 
 More info here: http://www.deathandtaxesmag.com/250166/presidential-name-swamp/
 
-Special thanks to the Redskin Web Skin: http://redskins.solutions/
-and Millennials to Snake People: https://chrome.google.com/webstore/detail/millennials-to-snake-peop/jhkibealmjkbkafogihpeidfcgnigmlf?hl=en-US
+Special thanks to the Redskin Web Skin: 
+http://redskins.solutions/
+
+and Millennials to Snake People: 
+https://github.com/ericwbailey/millennials-to-snake-people
+https://chrome.google.com/webstore/detail/millennials-to-snake-peop/jhkibealmjkbkafogihpeidfcgnigmlf?hl=en-US
