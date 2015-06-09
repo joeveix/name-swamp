@@ -182,13 +182,15 @@ function handleText(textNode)
 	v = v.replace(/\belection_day\b/g, "day_of_reckoning");
 
 	// Scott Walker
-	v = v.replace(/\bScott Walker\b/g, "Koch Sucker");
-	v = v.replace(/\bScottWalker\b/g, "KochSucker");
-	v = v.replace(/\bscottwalker\b/g, "kochsucker");
-	v = v.replace(/\bscott-walker\b/g, "koch-sucker");
-	v = v.replace(/\bscott_walker\b/g, "koch_sucker");
-	v = v.replace(/\bScott-Walker\b/g, "Koch-Sucker");
-	v = v.replace(/\bScott_Walker\b/g, "Koch_Sucker");
+	v = v.replace(/\bScott Walker\b/g, "Whine Rand");
+	v = v.replace(/\bScottWalker\b/g, "WhineRand");
+	v = v.replace(/\bscottwalker\b/g, "whinerand");
+	v = v.replace(/\bscott-walker\b/g, "whine-rand");
+	v = v.replace(/\bscott_walker\b/g, "whine_rand");
+	v = v.replace(/\bScott-Walker\b/g, "Whine-Rand");
+	v = v.replace(/\bScott_Walker\b/g, "Whine_Rand");
+	v = v.replace(/\bScott Kevin Walker\b/g, "Whine Rand");
+	v = v.replace(/\bWalker\b/g, "Whine Rand");
 
 	// Sarah Palin
 	v = v.replace(/\bSarah Palin\b/g, "She Who Must Not Be Named");
@@ -237,6 +239,157 @@ function handleText(textNode)
 	v = v.replace(/\bchuckjohnson\b/g, "floorpooper");
 	v = v.replace(/\bchuckcjohnson\b/g, "floorpooper");
 	v = v.replace(/\bjohnson\b/g, "Floor Pooper");
+	
+	//Rick Perry
+	v = v.replace(/\bRick Perry\b/g, "Racist Cowboy");
+	v = v.replace(/\brick perry\b/g, "racist cowboy");
+	v = v.replace(/\brickperry\b/g, "racistcowboy");
+	v = v.replace(/\bgovernorperry\b/g, "racistcowboy");
+	v = v.replace(/\bGovernorPerry\b/g, "racistcowboy");
+	v = v.replace(/\bRickPerry\b/g, "RacistCowboy");
+	v = v.replace(/\bRick-Perry\b/g, "Racist-Cowboy");
+	v = v.replace(/\bRick_Perry\b/g, "Racist_Cowboy");
+	v = v.replace(/\brick-perry\b/g, "racist-cowboy");
+	v = v.replace(/\brick_perry\b/g, "racist-cowboy");
+	v = v.replace(/\bJames Richard "Rick" Perry\b/g, "racistcowboy");
+	v = v.replace(/\bPerry\b/g, "Racist Cowboy");
+	
+    // Bobby Jindal
+	v = v.replace(/\bBobby Jindal\b/g, "Homophobicus Maximus");
+	v = v.replace(/\bBobbyJindal\b/g, "HomophobicusMaximus");
+	v = v.replace(/\bbobby jindal\b/g, "homophobicus maximus");
+	v = v.replace(/\bbobbyjindal\b/g, "homophobicusmaximus");
+	v = v.replace(/\bbobby-jindal\b/g, "homophobicus-maximus");
+	v = v.replace(/\bbobby_jindal\b/g, "homophobicus_maximus");
+	v = v.replace(/\bBobby-Jindal\b/g, "Homophobicus-Maximus");
+	v = v.replace(/\bBobby_Jindal\b/g, "Homophobicus_Maximus");
+	v = v.replace(/\bPiyush "Bobby" Jindal\b/g, "Homophobicus Maximus");
+	v = v.replace(/\bJindal\b/g, "Homophobicus Maximus");
+	
+    // Chris Christie
+	v = v.replace(/\bChris Christie\b/g, "Bridge Troll");
+	v = v.replace(/\bChrisChristie\b/g, "BridgeTroll");
+	v = v.replace(/\bchris christie\b/g, "bridge troll");
+	v = v.replace(/\bchrischristie\b/g, "bridgetroll");
+	v = v.replace(/\bChris-Christie\b/g, "Bridge-Troll");
+	v = v.replace(/\bChris_Christie\b/g, "Bridge_Troll");
+	v = v.replace(/\bchris-christie\b/g, "bridge-troll");
+	v = v.replace(/\bchris_christie\b/g, "bridge_troll");
+	v = v.replace(/\bGovernorChristie\b/g, "Bridge Troll");
+	v = v.replace(/\bgovchristie\b/g, "bridgetroll");
+	v = v.replace(/\bChristopher James "Chris" Christie\b/g, "Bridge Troll");
+	v = v.replace(/\bChristie\b/g, "Bridge Troll");
+	
+    // Lindsey Graham
+	v = v.replace(/\bLindsey Graham\b/g, "Probably Gay");
+	v = v.replace(/\bLindseyGraham\b/g, "ProbablyGay");
+	v = v.replace(/\bLindsey-Graham\b/g, "Probably-Gay");
+	v = v.replace(/\bLindsey_Graham\b/g, "Probably_Gay");
+	v = v.replace(/\blindsey graham\b/g, "probably gay");
+	v = v.replace(/\blindseygraham\b/g, "probablygay");
+	v = v.replace(/\blindsey-graham\b/g, "probably-gay");
+	v = v.replace(/\blindsey_graham\b/g, "probably_gay");
+	v = v.replace(/\bLindseyGrahamSC\b/g, "ProbablyGaySC");
+	v = v.replace(/\bLindsey Olin Graham\b/g, "Probably Gay");
+	v = v.replace(/\bGraham\b/g, "Probably Gay");
+	
+    // George Pataki
+	v = v.replace(/\bGeorge Pataki\b/g, "That Other Guy");
+	v = v.replace(/\bGeorge Pataki\b/g, "ThatOtherGuy");
+	v = v.replace(/\bGeorge-Pataki\b/g, "That-Other-Guy");
+	v = v.replace(/\bGeorge_Pataki\b/g, "That_Other_Guy");
+	v = v.replace(/\bgeorge pataki\b/g, "that other guy");
+	v = v.replace(/\bgeorgepataki\b/g, "thatotherguy");
+	v = v.replace(/\bgeorge-pataki\b/g, "that-other-guy");
+	v = v.replace(/\bgeorge_pataki\b/g, "that_other_guy");
+	v = v.replace(/\bgovernorpataki\b/g, "thatotherguy");
+	v = v.replace(/\bGovernor Pataki\b/g, "thatotherguy");
+	v = v.replace(/\bGeorge E. Pataki\b/g, "thatotherguy");
+	v = v.replace(/\bgpataki\b/g, "thatotherguy");
+	v = v.replace(/\bGeorge Elmer Pataki\b/g, "That Other Guy");
+	v = v.replace(/\bPataki\b/g, "That Other Guy");
+	
+    // Lincoln Chafee
+	v = v.replace(/\bLincoln Chafee\b/g, "Not That Lincoln");
+	v = v.replace(/\bLincolnChafee\b/g, "NotThatLincoln");
+	v = v.replace(/\bLincoln-Chafee\b/g, "Not-That-Lincoln");
+	v = v.replace(/\bLincoln_Chafee\b/g, "Not_That_Lincoln");
+	v = v.replace(/\blincoln chafee\b/g, "not that lincoln");
+	v = v.replace(/\blincolnchafee\b/g, "notthatlincoln");
+	v = v.replace(/\blincoln-chafee\b/g, "not-that-lincoln");
+	v = v.replace(/\blincoln_chafee\b/g, "not_that_lincoln");
+	v = v.replace(/\bchafee2016\b/g, "notthatlincoln2016");
+	v = v.replace(/\bLincoln Davenport Chafee\b/g, "Not That Lincoln");
+	v = v.replace(/\bChafee\b/g, "Not That Lincoln");
+	
+    // John Kasich
+	v = v.replace(/\bJohn Kasich\b/g, "Lehman Bro");
+	v = v.replace(/\bJohnKasich\b/g, "LehmanBro");
+	v = v.replace(/\bJohn R. Kasich\b/g, "Lehman Bro");
+	v = v.replace(/\bJohn-Kasich\b/g, "Lehman-Bro");
+	v = v.replace(/\bJohn_Kasich\b/g, "Lehman_Bro");
+	v = v.replace(/\bjohn kasich\b/g, "lehman bro");
+	v = v.replace(/\bjohnkasich\b/g, "lehmanbro");
+	v = v.replace(/\bjohn-kasich\b/g, "lehman-bro");
+	v = v.replace(/\bjohn_kasich\b/g, "lehman_bro");
+	v = v.replace(/\bJohn Richard Kasich\b/g, "Lehman Bro");
+	v = v.replace(/\bKasich\b/g, "Lehman Bro");
+	
+    // John Boehner
+	v = v.replace(/\bJohn Boehner\b/g, "John Boner");
+	v = v.replace(/\bJohnBoehner\b/g, "JohnBoner");
+	v = v.replace(/\bJohn-Boehner\b/g, "John-Boner");
+	v = v.replace(/\bJohn_Boehner\b/g, "John_Boner");
+	v = v.replace(/\bjohn boehner\b/g, "john boner");
+	v = v.replace(/\bSpeaker John Boehner\b/g, "Speaker John Boner");
+	v = v.replace(/\bspeakerboehner\b/g, "speakerboner");
+	v = v.replace(/\bjohnboehner\b/g, "johnboner");
+	v = v.replace(/\bjohn-boehner\b/g, "john-boner");
+	v = v.replace(/\bjohn_boehner\b/g, "john_boner");
+	v = v.replace(/\bJohn Andrew Boehner\b/g, "John Boner");
+	v = v.replace(/\bBoehner\b/g, "Boner");
+	
+    // Mitch McConnell
+	v = v.replace(/\bMitch McConnell\b/g, "The Human Turtle");
+	v = v.replace(/\bMitchMcConnell\b/g, "TheHumanTurtle");
+	v = v.replace(/\bMcConnellPress\b/g, "TheHumanTurtle");
+	v = v.replace(/\bMitch-McConnell\b/g, "The-Human-Turtle");
+	v = v.replace(/\bMitch_McConnell\b/g, "The_Human_Turtle");
+	v = v.replace(/\bmitch mcconnell\b/g, "the human turtle");
+	v = v.replace(/\bmitchmcconnell\b/g, "thehumanturtle");
+	v = v.replace(/\bmitch-mcconnell\b/g, "the-human-turtle");
+	v = v.replace(/\bmitch_mcconnell\b/g, "the_human_turtle");	
+	v = v.replace(/\bAddison Mitchell "Mitch" McConnell\b/g, "The Human Turtle");
+	v = v.replace(/\bMcConnell\b/g, "Human Turtle");
+	
+    // Martin O'Malley
+	v = v.replace(/\bMartin O'Malley\b/g, "What's His Name");
+	v = v.replace(/\bMartinO'Malley\b/g, "What'sHisName");
+	v = v.replace(/\bMartin_O_Malley\b/g, "Whats_His_Name");
+	v = v.replace(/\bMartin-O-Malley\b/g, "Whats-His-Name");
+	v = v.replace(/\bmartin-o-malley\b/g, "whats-his-name");
+	v = v.replace(/\bmartin o'malley\b/g, "whats his name");
+	v = v.replace(/\bmartin_o_malley\b/g, "whats_his_name");
+	v = v.replace(/\bmartinomalley\b/g, "whatshisname");
+	v = v.replace(/\bGovernorOMalley\b/g, "WhatsHisName");
+	v = v.replace(/\bhovernoromalley\b/g, "whatshisname");
+	v = v.replace(/\bMartinOMalley\b/g, "WhatsHisName");
+	v = v.replace(/\bMartin Joseph O'Malley\b/g, "What's His Name");
+	v = v.replace(/\bO'Malley\b/g, "What's His Name");
+			
+    // Jim Webb - Military Guy
+	v = v.replace(/\bJim Webb\b/g, "Military Guy");
+	v = v.replace(/\bJimWebb\b/g, "MilitaryGuy");
+	v = v.replace(/\bJim-Webb\b/g, "Military-Guy");
+	v = v.replace(/\bJim_Webb\b/g, "Military_Guy");
+	v = v.replace(/\bjim webb\b/g, "military guy");
+	v = v.replace(/\bjim-webb\b/g, "military-guy");
+	v = v.replace(/\bjim_webb\b/g, "military_guy");
+	v = v.replace(/\bjimwebb\b/g, "militaryguy");
+	v = v.replace(/\bjameswebb\b/g, "militaryguy");
+	v = v.replace(/\bwebb2016\b/g, "militaryguy2016");
+	v = v.replace(/\bJames Henry "Jim" Webb\b/g, "Military Guy");
+	v = v.replace(/\bWebb\b/g, "Military Guy");
 
 	//This is where I ran out of ideas.
 
