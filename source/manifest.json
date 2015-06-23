@@ -3,7 +3,7 @@
 
   "name": "Name Swamp",
   "description": "This extension takes the name of every presidential candidate and replaces it with something gross. I'm so sorry.",
-  "version": "2.1",
+  "version": "3.0",
 
   "browser_action": {
 	  "default_icon": "icon16.png",

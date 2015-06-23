@@ -377,7 +377,7 @@ function handleText(textNode)
 	v = v.replace(/\bMartin Joseph O'Malley\b/g, "What's His Name");
 	v = v.replace(/\bO'Malley\b/g, "What's His Name");
 			
-    // Jim Webb - Military Guy
+    // Jim Webb
 	v = v.replace(/\bJim Webb\b/g, "Military Guy");
 	v = v.replace(/\bJimWebb\b/g, "MilitaryGuy");
 	v = v.replace(/\bJim-Webb\b/g, "Military-Guy");
@@ -390,7 +390,19 @@ function handleText(textNode)
 	v = v.replace(/\bwebb2016\b/g, "militaryguy2016");
 	v = v.replace(/\bJames Henry "Jim" Webb\b/g, "Military Guy");
 	v = v.replace(/\bWebb\b/g, "Military Guy");
-
+	
+	// Donald Trump
+	v = v.replace(/\bDonald Trump\b/g, "Fuckface von Clownstick");
+	v = v.replace(/\bDonald John Trump\b/g, "Fuckface von Clownstick");
+	v = v.replace(/\bDonald J. Trump\b/g, "Fuckface von Clownstick");
+	v = v.replace(/\bDonald J Trump\b/g, "Fuckface von Clownstick");
+	v = v.replace(/\brealDonaldTrump\b/g, "FuckfaceVonClownstick");
+	v = v.replace(/\brealdonaldtrump\b/g, "FuckfaceVonClownstick");
+	v = v.replace(/\bdonald trump\b/g, "fuckface von clownstick");
+	v = v.replace(/\bdonaldtrump\b/g, "FuckfaceVonClownstick");
+	v = v.replace(/\bTrump\b/g, "Clownstick");
+	v = v.replace(/\brealdonaldtrump\b/g, "FuckfaceVonClownstick");
+	
 	//This is where I ran out of ideas.
 
 	textNode.nodeValue = v;
